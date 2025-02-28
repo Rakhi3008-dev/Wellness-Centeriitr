@@ -73,13 +73,13 @@ nav {
     width: 90%;
    
     padding: 50px;
-    background: #f5f5f5; /* Light background for contrast */
+    background: #f5f5f5; 
     margin: auto;
 }
 
 #homepage {
     width: 45%;
-    text-align: left; /* Align text naturally */
+    text-align: left;
 }
 
 #homepage h2 {
@@ -90,21 +90,21 @@ nav {
     margin-left: 50px;
 }
 #homepage h3 {
-    font-size: 24px;  /* Slightly smaller than the main heading */
-    font-weight: 400; /* Regular weight for a softer look */
-    color: #444; /* Subtle dark gray for readability */
-    margin-top: 10px; /* Space from h2 */
-    line-height: 1.5; /* Better spacing between lines */
-    max-width: 80%; /* Restrict width for better readability */
-    text-align: left; /* Align text to the left */
-    font-style: italic; /* Gives it a softer, thoughtful tone */
+    font-size: 24px;   
+    font-weight: 400;  
+    color: #444;  
+    margin-top: 10px;  
+    line-height: 1.5; 
+    max-width: 80%; 
+    text-align: left; 
+    font-style: italic; 
     margin-left: 50px;
 }
 
 
 .back-img img {
-    max-width: 50%; /* Restricts image width */
-    height: auto; /* Keeps aspect ratio */
+    max-width: 50%; 
+    height: auto; 
     border-radius: 10px;
 }
 
@@ -243,20 +243,6 @@ h2 {
 
 .event-card:hover img {
   transform: scale(1.05);
-}
-.event-container{
-  background: linear-gradient(to right, #ffffff, #d5e7f9);
- max-width: 1200px;
-  margin: 50px auto;
-  
-  padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
-  position: relative;
-  padding: 30px;
-  border-radius: 15px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  margin-top: 30px;
 }
 
 #about, #appointment {
