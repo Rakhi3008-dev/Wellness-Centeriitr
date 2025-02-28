@@ -1,0 +1,396 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+  font-weight: 100;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+    background: #004080;
+  padding: 10px 20px;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.navleft {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.navleft img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.nav-title h1 {
+  font-size: 20px;
+  margin: 0;
+  color: white;
+}
+
+.nav-title h2 {
+  font-size: 14px;
+  margin: 0;
+  color: white;
+}
+
+.navright ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navright ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.navright ul li a:hover {
+  color: hsl(51, 50%, 40%);
+}
+
+.back-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+   
+    padding: 50px;
+    background: #f5f5f5; /* Light background for contrast */
+    margin: auto;
+}
+
+#homepage {
+    width: 45%;
+    text-align: left; /* Align text naturally */
+}
+
+#homepage h2 {
+    font-size: 60px;
+    font-weight: bold;
+    color: hsl(51, 50%, 40%);
+    width: fit-content;
+    margin-left: 50px;
+}
+#homepage h3 {
+    font-size: 24px;  /* Slightly smaller than the main heading */
+    font-weight: 400; /* Regular weight for a softer look */
+    color: #444; /* Subtle dark gray for readability */
+    margin-top: 10px; /* Space from h2 */
+    line-height: 1.5; /* Better spacing between lines */
+    max-width: 80%; /* Restrict width for better readability */
+    text-align: left; /* Align text to the left */
+    font-style: italic; /* Gives it a softer, thoughtful tone */
+    margin-left: 50px;
+}
+
+
+.back-img img {
+    max-width: 50%; /* Restricts image width */
+    height: auto; /* Keeps aspect ratio */
+    border-radius: 10px;
+}
+
+
+
+
+.about-section {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 30px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+h2 {
+  color: #004080;
+  font-size: 32px;
+  margin-left: 20px;
+}
+
+.office-timings {
+    margin-top: 10px;
+  font-size: 27px;
+  color: hsl(51, 50%, 40%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#about {
+  background: linear-gradient(to right, #ffffff, #d5e7f9);
+  max-width: 1000px;
+  margin: 50px auto;
+  
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
+h2 {
+  color: #004080;
+  font-size: 28px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+.card {
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+.icon {
+  font-size: 40px;
+  color: #f4b400;
+  margin-bottom: 10px;
+}
+.card h3 {
+  font-size: 18px;
+  color: white;
+}
+.panel {
+  display: none;
+  font-size: 14px;
+  color: #bbb;
+  margin-top: 10px;
+}
+
+#events {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 30px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+#events h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #004080;
+  margin-bottom: 20px;
+}
+
+.event-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.event-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  width: 100%;
+  height: 300px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.event-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.event-card h3 {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 80%;
+  text-align: center;
+}
+
+.event-card:hover img {
+  transform: scale(1.05);
+}
+.event-container{
+  background: linear-gradient(to right, #ffffff, #d5e7f9);
+ max-width: 1200px;
+  margin: 50px auto;
+  
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+  position: relative;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+
+#about, #appointment {
+    background-color: white;
+    
+    position: relative;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+#appointment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 600px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+#appointment h2 {
+    color: #004080;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+#appointment p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+}
+#appointment a, #appointment button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 24px;
+    background: linear-gradient(to right, #004080, #0066cc);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+#appointment a:hover, #appointment button:hover {
+    background-color: #003366;
+    transform: scale(1.05);
+}
+.journal-section {
+  background: white;
+  
+  text-align: center;
+  padding: 50px 20px;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 600px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.journal-section h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #004080;
+}
+
+.journal-section p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.journal-btn {
+  background: #004080;
+  color: #ffffff;
+  padding: 12px 24px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.3s ease-in-out;
+}
+
+.journal-btn:hover {
+  background: #333;
+  color: white;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+footer {
+  background: #004080;
+  color: white;
+  padding: 20px 10%;
+  font-size: 19px;
+  border-top: 3px solid #0066cc;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1100px;
+}
+
+.footer-left, .footer-right {
+  width: 45%;
+}
+
+.footer-right {
+  text-align: left;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
